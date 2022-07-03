@@ -2,9 +2,9 @@
     <div class="container-fluid bg-dark" id="Wrapper">
         <div class="row">
             <div class="col-12">
-                <!-- M E N U -->
+                <!-- M E N U  navbar-expand-lg -->
                 <nav class="navbar navbar-dark bg-dark" id="Menu">
-                    <a class="navbar-brand" id = "Logo" href = "#">TOM REINA-HIOT</a>
+                    <a class="navbar-brand" id = "Logo" href = "index.php?action=acceuil">TOM REINA-HIOT</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#NavigationBtsSio" aria-controls="NavigationBtsSio" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -21,7 +21,7 @@
                                     <li><a class="dropdown-item" href="#">POO</a></li>
                                     <li><a class="dropdown-item" href="#">GLPI</a></li>
                                     <li><a class="dropdown-item" href="#">Virtualbox</a></li>
-                                    <li><a class="dropdown-item" href="#">Infocosme</a></li>
+                                    <li><a class="dropdown-item" href="index.php?action=infocosme">Infocosme</a></li>
                                 </ul>
                                 <a class="nav-link" href="#">Projets Perso</a>
                             </li>
