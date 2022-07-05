@@ -11,19 +11,19 @@
                     <div class="collapse navbar-collapse" id="NavigationBtsSio">
                         <ul class="navbar-nav">
                             <li class="nav-item dropdown">
-                                <a class="nav-link" href="#">Mon Profil</a>
+                                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#enCoursDeDev" data-porfoliolink="Mon Profil">Mon Profil</a>
                                 <a class="nav-link dropdown-toggle" href="#" id="NavigationBtsSioLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     BTS SIO
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="NavigationBtsSioLink">
-                                    <li><a class="dropdown-item" href="#">Fullstack Web</a></li>
-                                    <li><a class="dropdown-item" href="#">Front-End Web</a></li>
-                                    <li><a class="dropdown-item" href="#">POO</a></li>
-                                    <li><a class="dropdown-item" href="#">GLPI</a></li>
-                                    <li><a class="dropdown-item" href="#">Virtualbox</a></li>
-                                    <li><a class="dropdown-item" href="index.php?action=infocosme">Infocosme</a></li>
+                                    <li><button class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#enCoursDeDev" data-porfoliolink="Fullstack Web">Fullstack Web</button></li>
+                                    <li><button class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#enCoursDeDev" data-porfoliolink="Front-End Web">Front-End Web</button></li>
+                                    <li><button class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#enCoursDeDev" data-porfoliolink="POO">POO</button></li>
+                                    <li><button class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#enCoursDeDev" data-porfoliolink="GLPI">GLPI</button></li>
+                                    <li><button class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#enCoursDeDev" data-porfoliolink="Virtualbox">Virtualbox</button></li>
+                                    <li><button class="dropdown-item" type="button" onclick="location.href='index.php?action=infocosme'">Infocosme</button></li>
                                 </ul>
-                                <a class="nav-link" href="#">Projets Perso</a>
+                                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#enCoursDeDev" data-porfoliolink="Projets Perso">Projets Perso</a>
                             </li>
                         </ul>
                     </div>

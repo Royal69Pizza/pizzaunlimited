@@ -9,6 +9,14 @@
   color: white;
   font-family: OmegaFlightTitle;
   font-size: 14px;
+  margin-bottom: 10px;
+}
+.OmegaFlightTitle16NoPad {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: OmegaFlightTitle;
+  font-size: 14px;
 }
 @font-face {
 	font-family: "Mylodon";
@@ -32,17 +40,6 @@
   color: white;
   font-family: HighSpeed;
   font-size: 23px;
-}
-@font-face {
-	font-family: "LinuxLibertad";
-	src: url('../polices/LinuxLibertad.ttf');
-}
-.LinuxLibertad18 {
-  margin: 0;
-  padding: 0;
-  color: white;
-  font-family: LinuxLibertad;
-  font-size: 18px;
 }
 
 
@@ -124,14 +121,26 @@
   --ionicon-stroke-width: 24px;
 }
 
-.titleWithBack {
-  
+.card {
+  background-color: #303030;
+}
+.card-body ion-icon {
+  color: #00ff00;
+  font-size: 1.5em;
+  margin-left: 10px;
 }
 
+.list-group-item {
+  background-color: #303030;
+}
+.list-group-item ion-icon {
+  color: #00ff00;
+  font-size: 1.5em;
+  margin-left: 10px;
+}
 
 /* [GLOBAL CLASS] B O U T O N S */
 .VPlus {
-  margin-top: 10px;
   border-radius: 5px;
   border-style: solid;
   border-width: 2px;
@@ -150,6 +159,10 @@
   border-radius: 10px;
   color: #00ff00;
   box-shadow:  inset 0em 0px #00ff00, inset -0px -0px rgb(24, 24, 24);
+}
+
+.modal-content {
+  background-color: #303030;
 }
 
 

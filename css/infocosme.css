@@ -19,6 +19,9 @@
   box-shadow: 0 5px 5px 0px #ff9500;
   margin-top: 20px;
 }
+.InfocosmeLogoNoPad {
+  width: 120px;
+}
 .d1 .PlanetLinkInfocosme {
   margin: 0;
   padding: 0;
@@ -46,6 +49,28 @@
 
 /* X P X */
 #xpx {
+  padding-bottom: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 20px;
+  box-shadow: 0px 2px rgb(24, 24, 24), 0px -2px rgb(24, 24, 24), 2px 0px rgb(24, 24, 24), -2px -0px rgb(24, 24, 24);
+  overflow: hidden;
+  background: radial-gradient(ellipse at top, rgb(37, 32, 43) 0%, rgb(59, 3, 107) 100%);
+}
+
+/* J S */
+#js {
+  padding-bottom: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 20px;
+  box-shadow: 0px 2px rgb(24, 24, 24), 0px -2px rgb(24, 24, 24), 2px 0px rgb(24, 24, 24), -2px -0px rgb(24, 24, 24);
+  overflow: hidden;
+  background: radial-gradient(ellipse at top, rgb(37, 32, 43) 0%, rgb(59, 3, 107) 100%);
+}
+
+/* J Q U E R Y */
+#jquery {
   padding-bottom: 10px;
   border-style: solid;
   border-width: 2px;
