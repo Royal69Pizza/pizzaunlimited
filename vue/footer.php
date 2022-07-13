@@ -3,7 +3,7 @@
                 <a href="mailto:contactpizzaunlimited.online"><ion-icon name="mail"></ion-icon></a>
                 <a href="https://www.instagram.com/royal69pizza" target = "_blank"><ion-icon name="logo-instagram"></ion-icon></a>
                 <a href="https://github.com/Royal69Pizza/pizzaunlimited" target = "_blank"><ion-icon name="logo-github"></ion-icon></a>
-                <p class = "Marie">𝓙𝓮 𝓽'𝓪𝓲𝓶𝓮 𝓜𝓪𝓻𝓲𝓮...</p> <!-- 19/12/2021-->
+                <!-- <p class = "Marie">𝓙𝓮 𝓽'𝓪𝓲𝓶𝓮 𝓜𝓪𝓻𝓲𝓮...</p> 19/12/2021 -->
             </div>
         </div>
     </div>
