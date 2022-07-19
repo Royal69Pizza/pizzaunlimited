@@ -39,8 +39,8 @@
 					</div>
 					<div class="row">
 						<div class="col-12 text-center pt-2">
-							<p class="text-white">Etudiant et développeur novice passioné par la programmation et la cybersécurité.
-							Découvrez mes projets et réalisations, ainsi que mon parcours professionel !</p>
+							<p class="text-white">Étudiant et développeur passioné par la programmation et la cybersécurité.
+							Je vous partage mes projets et réalisations, ainsi que mon parcours professionel !</p>
 						</div>
 					</div>
 					<div class="row">
@@ -66,38 +66,44 @@
 						<p class="Mylodon20">BTS SIO</p>
 					</div>
 					<div class="col-12 text-center pt-2">
-						<p class="text-white">Mes TP et projets durant mes années du BTS SIO (Service Informatique aux Organisations).</p>
+						<p class="text-white">Mes TP et projets durant mes années du BTS SIO (Service Informatique aux Organisations).<br>
+						Cliquez sur une planète pour naviguer !</p>
 					</div>
 					<div class="row pb-3">
 						<div class="d1 col-12 col-sm-6 col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
-							<div class="PlanetLinkProjets">
-								<p class="OmegaFlightTitle15">Fullstack Web</p>
-								<button class="VPlus" type="button" data-bs-toggle="modal" data-bs-target="#enCoursDeDev" data-porfoliolink="Fullstack Web">Voir</button>
-							</div>
+							<button class="PlanetAutoLink" type="button" data-bs-toggle="modal" data-bs-target="#enCoursDeDev" data-porfoliolink="Fullstack Web">
+								<div class="PlanetLinkProjets">
+									<p class="OmegaFlightTitle15">Fullstack Web</p>
+								</div>
+							</button>
 						</div>
 						<div class="d2 col-12 col-sm-6 col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
-							<div class="PlanetLinkProjets">
-								<p class="OmegaFlightTitle15">Front-End Web</p>
-								<button class="VPlus" type="button" data-bs-toggle="modal" data-bs-target="#enCoursDeDev" data-porfoliolink="Front-End Web">Voir</button>
-							</div>
+							<button class="PlanetAutoLink" type="button" data-bs-toggle="modal" data-bs-target="#enCoursDeDev" data-porfoliolink="Front-End Web">
+								<div class="PlanetLinkProjets">
+									<p class="OmegaFlightTitle15">Front-End Web</p>
+								</div>
+							</button>
 						</div>
-						<div class="d3 col-12 col-sm-6 col-md-3 col-lg-4 d-flex justify-content-center align-items-center">
-							<div class="PlanetLinkProjets">
-								<p class="OmegaFlightTitle15">POO</p>
-								<button class="VPlus" type="button" data-bs-toggle="modal" data-bs-target="#enCoursDeDev" data-porfoliolink="POO">Voir</button>
-							</div>
+						<div class="d3 col-6 col-sm-6 col-md-3 col-lg-4 d-flex justify-content-center align-items-center">
+							<button class="PlanetAutoLink" type="button" data-bs-toggle="modal" data-bs-target="#enCoursDeDev" data-porfoliolink="POO">
+								<div class="PlanetLinkProjets">
+									<p class="OmegaFlightTitle15">POO</p>
+								</div>
+							</button>
 						</div>
-						<div class="d4 col-12 col-sm-6 col-md-3 col-lg-4 d-flex justify-content-center align-items-center">
-							<div class="PlanetLinkProjets">
-								<p class="OmegaFlightTitle15">GLPI</p>
-								<button class="VPlus" type="button" data-bs-toggle="modal" data-bs-target="#enCoursDeDev" data-porfoliolink="GLPI">Voir</button>
-							</div>
+						<div class="d4 col-6 col-sm-6 col-md-3 col-lg-4 d-flex justify-content-center align-items-center">
+							<button class="PlanetAutoLink" type="button" data-bs-toggle="modal" data-bs-target="#enCoursDeDev" data-porfoliolink="GLPI">
+								<div class="PlanetLinkProjets">
+									<p class="OmegaFlightTitle15">GLPI</p>
+								</div>
+							</button>
 						</div>
 						<div class="d5 col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
-							<div class="PlanetLinkProjets">
-								<p class="OmegaFlightTitle15">Virtualbox</p>
-								<button class="VPlus" type="button" data-bs-toggle="modal" data-bs-target="#enCoursDeDev" data-porfoliolink="Virtualbox">Voir</button>
-							</div>
+							<button class="PlanetAutoLink" type="button" data-bs-toggle="modal" data-bs-target="#enCoursDeDev" data-porfoliolink="Virtualbox">
+								<div class="PlanetLinkProjets">
+									<p class="OmegaFlightTitle15">Virtualbox</p>
+								</div>
+							</button>
 						</div>
 					</div>
 				</div>
@@ -118,14 +124,16 @@
 						<p class="Mylodon20">BTS SIO</p>
 					</div>
 					<div class="col-12 text-center pt-2">
-						<p class="text-white">Mes stages réalisés lors de mon BTS SIO.</p>
+						<p class="text-white">Mes stages réalisés lors de mon BTS SIO.<br>
+						Cliquez sur une planète pour naviguer !</p>
 					</div>
 					<div class="row pb-3">
 						<div class="d1 col-12 col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center align-items-center">
-							<div class="PlanetLinkStages">
-								<img class = "InfocosmeLogo" src = "images/LogoInfocosme.png">
-								<button class="VPlus" type="button" onclick="location.href='index.php?action=infocosme'">Voir</button>
-							</div>
+							<button class="PlanetAutoLink" type="button" onclick="location.href='index.php?action=infocosme'">
+								<div class="PlanetLinkStages">
+									<img class = "InfocosmeLogo" src = "images/LogoInfocosme.png">
+								</div>
+							</button>
 						</div>
 					</div>
 				</div>
@@ -145,14 +153,23 @@
 						<p class="Mylodon20">Projets Perso</p>
 					</div>
 					<div class="col-12 text-center pt-2">
-						<p class="text-white">Mes projets personnels.</p>
+						<p class="text-white">Mes projets personnels.<br>
+						Cliquez sur une planète pour naviguer !</p>
 					</div>
 					<div class="row pb-3">
-						<div class="d1 col-12 col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center align-items-center">
-							<div class="PlanetLinkProjetsPerso">
-								<p class="OmegaFlightTitle15">Python</p>
-								<button class="VPlus" type="button" data-bs-toggle="modal" data-bs-target="#enCoursDeDev" data-porfoliolink="Python">Voir</button>
-							</div>
+						<div class="d1 col-6 col-sm-6 col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
+							<button class="PlanetAutoLink" type="button" data-bs-toggle="modal" data-bs-target="#enCoursDeDev" data-porfoliolink="Python">
+								<div class="PlanetLinkProjetsPerso">
+									<p class="OmegaFlightTitle15">Python</p>
+								</div>
+							</button>
+						</div>
+						<div class="d2 col-6 col-sm-6 col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
+							<button class="PlanetAutoLink" type="button" data-bs-toggle="modal" data-bs-target="#enCoursDeDev" data-porfoliolink="Pizzaunlimited">
+								<div class="PlanetLinkProjetsPerso">
+									<img class="Pizza" src="images/Pizza.png">
+								</div>
+							</button>
 						</div>
 					</div>
 				</div>

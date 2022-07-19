@@ -54,7 +54,7 @@
                     <div class="col-12 text-left pt-3">
 						<div class="card border-success">
 							<div class="card-body">
-								<p class="card-text text-white">Automatiser la construction de formulaires sur l'ERP (Enterprise Resource Planning) Atelis 7.0</p>
+								<h6 class="card-text text-white">Automatiser la construction de formulaires sur l'ERP (Enterprise Resource Planning) Atelis 7.0</h6>
 								<p class="text-muted">Un formulaire qui génère des formulaires</p>
 							</div>
 							<img src="images/capturesStageInfocosme/ctrl.xpx.png" alt="image" style="width:100%">
